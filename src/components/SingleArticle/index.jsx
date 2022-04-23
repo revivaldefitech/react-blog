@@ -4,23 +4,20 @@ const SingleArticle = () => {
   return (
    <div>
   {/* Header */}
-  <header className="header header-inverse h-fullscreen pb-80" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/bg-cup.jpg)`}} data-overlay={8}>
+  <header className="header header-inverse h-fullscreen pb-80" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/dextest1.png)`}} >
     <div className="container text-center">
       <div className="row h-full">
         <div className="col-12 col-lg-8 offset-lg-2 align-self-center">
           <p className="opacity-70">News</p>
           <br />
-          <h1 className="display-4 hidden-sm-down">We've just passed 1,000 customers!</h1>
-          <h1 className="hidden-md-up">We've just passed 1,000 customers!</h1>
+          <h1 className="display-4 hidden-sm-down">Revival DeFi dApp History</h1>
+          <h1 className="hidden-md-up">Revival DeFi dApp History</h1>
           <br />
           <br />
-          <p>
+
             <span className="opacity-70 mr-8">By</span>
-            <a className="text-white" href="#">Hossein Shams</a>
-          </p>
-          <p>
-            <img className="rounded-circle w-40" src={`${process.env.PUBLIC_URL}/assets/img/avatar/2.jpg`} alt="..." />
-          </p>
+            <a className="text-white" href="#">Revival DeFi</a>
+
         </div>
         <div className="col-12 align-self-end text-center">
           <a className="scroll-down-1 scroll-down-inverse" href="#" data-scrollto="section-content">
@@ -42,37 +39,35 @@ const SingleArticle = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">
-            <p className="lead">Dynamically procrastinate professional best practices vis-a-vis next-generation content. Seamlessly extend sustainable
-              networks via plug-and-play niche markets. Progressively communicate customized alignments for client-focused
-              services. Holisticly cultivate professional mindshare with impactful niche markets. Dynamically fabricate market-driven
-              collaboration and idea-sharing with turnkey.</p>
+            <p className="lead">Although not originally planned, staking in the Revival dApp has been wildly popular with our holders. Yes, you read that correctly, staking pools and even the dApp itself were not part of the original RevivalDeFi plan.</p>
             <hr className="w-100" />
-            <p>Proactively whiteboard covalent functionalities through reliable applications. Professionally integrate 24/365
-              manufactured products rather than end-to-end collaboration and idea-sharing. Conveniently disintermediate progressive
-              scenarios via inexpensive ROI. Proactively build seamless markets rather than world-class channels. Objectively
-              disseminate multimedia based methodologies whereas robust.</p>
-            <p>Compellingly plagiarize economically sound opportunities and cross-platform e-business. Completely embrace alternative
-              initiatives whereas innovative services. Holisticly e-enable one-to-one internal or "organic" sources via interactive
-              technologies. Energistically leverage other's end-to-end e-tailers with goal-oriented innovation. Objectively
-              evolve focused networks for unique methods.</p>
+            <p>The original plan and Roadmap for the RevivalDeFi project consisted of the initial launching of the Revival token, security audits, CMC Listing and an eventual launch of the governance token, Vival. Revival holders became very vocal about wanting a dApp and staking pools added to the benefits of holding Revival.</p>
+            <p>The Revival team heard their call and listened.</p>
           </div>
         </div>
         <br />
         <p>
-          <img src={`${process.env.PUBLIC_URL}/assets/img/blog-img.jpg`} alt="..." />
+          <img src={`${process.env.PUBLIC_URL}/assets/img/socialbanner.jpeg`}  alt="..." 
+          style={{
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+          />
+
         </p>
         <br />
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">
-            <p>Assertively empower customized alignments vis-a-vis go forward vortals. Completely monetize inexpensive alignments
-              whereas market positioning services. Uniquely revolutionize multifunctional strategic theme areas with adaptive
-              architectures. Interactively orchestrate next-generation content with proactive applications. Appropriately
-              initiate market-driven results through backend deliverables.</p>
+            <p>Development began on a dApp and staking pools to enhance the RevivalDeFi holder experience by not only continuing the 11% BNB reflections, but also adding staking pools. Time and funds were also spent seeking out other projects to partner with in these pools. All of this was wildly successful and very beneficial to our holders. They were, and still continue to be able to add to their holdings through staking.</p>
+            <p>As a consequence of these changes, the Revival Roadmap has drifted slightly off course.</p>
+            <p>All of the items listed, CEX listings, Mobile App, NFTs etc. are all still on the table and are actively being pursued and are in development. However, the timelines are in the process of being adjusted to a more realistic goal.</p>
+            <p>Thank you all again for your continued support. Please do not hesitate to ask questions, even the tough ones, and hold the team accountable. We are here for you and because of you. Here are a few nuggets to chew on while you stake!</p>
             <ul>
-              <li>Energistically coordinate business relationships</li>
-              <li>Change via resource-leveling innovation</li>
-              <li>Efficiently develop fully researched experiences and integrated</li>
-              <li>Assertively empower customized alignments vis-a-vis go forward vortals</li>
+              <li>A new, re-designed website is in development and is in the final stages of auditing before release.</li>
+              <li>Revival and Vival mascots are in development and will open up many avenues for NFT development.</li>
+              <li>30 day RVL-VIV and VIV-VIV staking pools will be opening in the next few days.</li>
+              <li>Once the LP unlocks, it opens up the possibilities for a reverse split.</li>
+              <li>White Paper currently going through the final edits and release is imminent.</li>
             </ul>
             <p>Quickly innovate high-quality catalysts for change via resource-leveling innovation. Seamlessly expedite just
               in time infomediaries vis-a-vis viral manufactured products. Rapidiously network synergistic leadership whereas
@@ -87,20 +82,12 @@ const SingleArticle = () => {
               <div className="quote-sign" />
               <p>Objectively grow out-of-the-box results with go forward methodologies. Progressively exploit dynamic functionalities
                 without ethical portals. Competently facilitate timely total linkage with.</p>
-              <footer>Someone famous in
+              {/*<footer>Someone famous in
                 <cite title="Source Title">Source Title</cite>
-              </footer>
-            </blockquote>
-            <p>Proactively underwhelm proactive leadership skills whereas plug-and-play paradigms. Credibly whiteboard client-centered
-              intellectual capital after B2B total linkage. Progressively innovate technically sound manufactured products
-              whereas diverse meta-services. Continually orchestrate ubiquitous core competencies rather than market positioning
-              "outside the box" thinking. Dramatically redefine out-of-the-box schemas.</p>
-            <div className="gap-multiline-items-1 mt-30">
-              <a className="badge badge-pill badge-default" href="#">Record</a>
-              <a className="badge badge-pill badge-default" href="#">Progress</a>
-              <a className="badge badge-pill badge-default" href="#">Customers</a>
-              <a className="badge badge-pill badge-default" href="#">News</a>
-            </div>
+              </footer>*/}
+</blockquote>
+
+
           </div>
         </div>
       </div>
@@ -110,15 +97,8 @@ const SingleArticle = () => {
 | Comments
 |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
 !*/}
-    <div className="section bt-1 bg-grey">
-      <div className="container">
-        <div className="row text-center">
-          <div className="text-center p-5">
-            COMMENTS HERE.
-          </div>
-        </div>
-      </div>
-    </div>
+
+
   </main>
   {/* END Main container */}
 </div>

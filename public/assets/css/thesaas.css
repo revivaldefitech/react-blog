@@ -5949,19 +5949,20 @@ ul.flexbox {
 .section {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #fff;
+  background-color: #0e0e2d;
 }
 
 @media (max-width: 991px) {
   .section {
     padding-top: 70px;
     padding-bottom: 70px;
+    color: #0e0e2d;
   }
 }
 
 .section-inverse,
 .header-inverse {
-  background-color: #191919;
+  background-color: ##0e0e2d;
 }
 
 .section-inverse,
@@ -5991,12 +5992,12 @@ ul.flexbox {
 .section-inverse code,
 .header-inverse code {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #eee;
+  color: #0e0e2d;
 }
 
 .section-inverse .divider,
 .header-inverse .divider {
-  color: #fff;
+  color: ##0e0e2d;
 }
 
 .section-inverse .divider::before, .section-inverse .divider::after,
@@ -6007,7 +6008,7 @@ ul.flexbox {
 
 .section-inverse .section-header small,
 .header-inverse .section-header small {
-  color: #fff;
+  color: #0e0e2d;
 }
 
 .section-inverse .rating label.empty,
@@ -6058,7 +6059,7 @@ ul.flexbox {
 }
 
 .section[data-parallax] {
-  background-color: transparent;
+  background-color: #0e0e2d;
 }
 
 .parallax-slider {
@@ -6087,7 +6088,7 @@ ul.flexbox {
 .section-dialog {
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
+  background-color: #0e0e2d;
   padding: 20px;
   border-radius: 8px;
 }

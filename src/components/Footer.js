@@ -26,18 +26,7 @@ class FooterComponent extends Component {
     };
   }
 
-  hideModal = () => {
-    this.setState({
-      info: false
-    })
-    console.log('closing')
-  }
-
-  hideTrackerModal = () => {
-    this.setState({
-      modal: false
-    })
-  }
+ 
 
   render() {
     const termsOfUse = <p>
@@ -89,6 +78,7 @@ class FooterComponent extends Component {
             <p>Mobile App will be available on both App Stores soon</p>
             </div>
             <div>
+              <br></br>
           <div className="mobile-links">
               <img src='/img/googleplay.png'></img>
               <img src='/img/appstore.png'></img>
@@ -99,14 +89,18 @@ class FooterComponent extends Component {
           <div className="first-half">
 
             <p></p>
+           
           </div>
           <div className="second-half">
+          
             <div className="audited-part">
+            <b>Audited By</b>
               <span className="audited-text">
-                <b>Audited by </b>
+               
 
               </span>
               <p></p>
+              <br></br>
               <div>
               <a href='https://www.certik.com/projects/revival' target='_blank'><img className="small-logo" src="/img/Certik.png"></img></a>
               <a href='https://dessertswap.finance/audits/Revival%20BSC%20Audit%2011371955.pdf' target='_blank'><img className="small-logo" src="/img/dessertfinance.png"></img></a>

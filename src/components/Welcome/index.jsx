@@ -2,15 +2,23 @@ import React from 'react';
 import Banner from './../Banner';
 import Article from './../Article';
 
+
+
+
 const Welcome = () => {
   return (
     <div>
       <Banner 
       backgroundImage="url(assets/img/dextest1.png)"
       title="Latest Revival DeFi Blog Posts"
-      subtitle="Thoughts, Stories & News"
-      />
-        
+      subtitle="Thoughts, Stories & News"/>
+
+
+    
+  
+
+
+
        
     
     <main className="main-content bg-gray">
@@ -28,4 +36,7 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default  Welcome;
+  
+  {
+}

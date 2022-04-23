@@ -4,7 +4,7 @@
 .thesaas-sections-split .main-content .site-footer {
   margin: 30px 50px 100px;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  border: 1px solid #ebebeb;
+  border: 1px solid #d12c2c;
 }
 
 .thesaas-sections-split .main-content .topbar {
@@ -22,6 +22,12 @@
   font-weight: 600;
   letter-spacing: 1px;
   padding-top: 60px;
+}
+
+.rounded > img {
+justify-content: center;
+padding-left: 20px;
+
 }
 
 .thesaas-sections-split.topbar-reveal .main-content .topbar-nav {
