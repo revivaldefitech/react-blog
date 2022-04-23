@@ -1,0 +1,124 @@
+.footer{
+    padding-top: 50px;
+    padding: 50px 100px;
+    background-image: url("/src/footer_bg.png");
+    background-color: #0D0D20;
+    border-top: 5px solid rgba(255, 255, 255, 0.1);
+}
+.upper-section{
+    width: 100%;
+    display: flex;
+}
+
+.links-container{
+    flex: 0 0 25%;
+}
+
+.dapp-section{
+    flex: 0 0 30%;
+    text-align: center;
+}
+.dapp-section > p{
+    font-weight: 300;
+    font-size: 36px;
+    padding-bottom: 0px;
+}
+
+.links-container:first-child{
+    margin-left: auto;
+}
+
+.down-section{
+    display: flex;
+    width: 100%;
+}
+
+.first-half{
+    flex: 0 0 50%;
+    text-align: left;
+}
+.second-half{
+    flex: 0 0 50%;
+    text-align: right;
+}
+.audited-part{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    padding-bottom: 10px;
+    
+}
+.small-logo{
+    height: 30px;
+    margin: 0px 0px;
+    padding: 0px
+}
+.mySocialIcon{
+    height: 20px;
+    margin: 10px 10px;
+}
+.audited-text{
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.links-container>a{
+    color: white;
+    text-decoration: none;
+}
+.links-container>a:hover{
+    text-decoration: underline;
+}
+.mobile-links{
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+}
+.mobile-links > img{
+    flex: 0 0 40%;
+    width: 50%;
+    height: auto;
+    margin: 10px 5%;
+    
+}
+
+@media (max-width: 1200px) { 
+    .footer{
+      padding: 50px 20px;
+    }
+
+  }
+
+  @media (max-width: 475px) { 
+    .dapp-section > p{
+        font-weight: 300;
+        font-size: 10px;
+        flex: 0 0 100%;
+        padding-top: 20px;
+    }
+
+
+
+
+    .mobile-links{
+        width: 80%;
+        flex: 0 0 100%;
+        display: flex;
+        
+    }
+    .dapp-section{
+        display: flex;
+        text-align: center;
+        
+    }
+    .mobile-links > img {
+        width: 60%;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

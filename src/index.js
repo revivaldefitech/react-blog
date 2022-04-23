@@ -11,6 +11,7 @@ import CreateArtice from './components/CreateArticle';
 import * as serviceWorker from './serviceWorker';
 
 
+
 const Main = withRouter(({ location }) => {
 return (
 <div>
@@ -24,12 +25,13 @@ return (
     <Route path="/article/:slug" component={SingleArticle}/>
     <Route path="/articles/create" component={CreateArtice}/>
     <Route path="/signup" component={SignUp}/>
-    //
+    
     
     {
     location.pathname !== '/login' && location.pathname !== '/signup' &&
     <Footer />
   }
+  
   </div>
 );
 });

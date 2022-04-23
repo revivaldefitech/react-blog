@@ -335,43 +335,7 @@
 
 
 
-  //----------------------------------------------------/
-  // Smooth scroll to a target element
-  //----------------------------------------------------/
-  thesaas.scrolling = function() {
-
-    var topbar_height = 60;
-    var html_body = $('html, body');
-
-    // Back to top
-    $(document).on( 'click', '.scroll-top', function() {
-      html_body.animate({scrollTop : 0}, 600);
-      $(this).blur();
-      return false;
-    });
-
-    // Smoothscroll to anchor
-    $(document).on('click', '[data-scrollto]', function(){
-      var id = '#' + $(this).data('scrollto');
-      if ( $(id).length > 0 ) {
-        var offset = 0;
-        if ( $('.topbar.topbar-sticky').length ) {
-          offset = topbar_height;
-        }
-        html_body.animate({scrollTop: $(id).offset().top - offset}, 1000);
-      }
-      return false;
-    });
-
-    // Smoothscroll to anchor in page load
-    var hash = location.hash.replace('#','');
-    if (hash != '' && $("#"+hash).length > 0) {
-      html_body.animate({scrollTop: $("#"+hash).offset().top - topbar_height}, 1000);
-    }
-
-  }
-
-
+  
 
 
 
@@ -457,17 +421,7 @@
   //----------------------------------------------------/
   // Topbar functionality
   //----------------------------------------------------/
-  thesaas.topbar = function() {
-
-    var body = $('body');
-    $(window).on('scroll', function() {
-      if ($(document).scrollTop() > 10) {
-        body.addClass('body-scrolled');
-      }
-      else {
-        body.removeClass('body-scrolled');
-      }
-    });
+  
 
 
     // Open menu on click
@@ -487,29 +441,9 @@
     });
 
 
-    // Topbar toggler
-    // 
-    $(document).on('click', '.topbar-toggler', function(){
-      //body.toggleClass('topbar-reveal').prepend('<div class="topbar-backdrop"></div>');
-      body.toggleClass('topbar-reveal');
-      $(this).closest('.topbar').prepend('<div class="topbar-backdrop"></div>');
-    });
-
-    $(document).on('click', '.topbar-backdrop', function(){
-      body.toggleClass('topbar-reveal');
-      $(this).remove();
-    });
 
 
-    // Dropdown for small screens
-    //
-    $(document).on('click', '.topbar-reveal .topbar-nav .nav-item > .nav-link', function(){
-      var item = $(this),
-          submenu = item.next('.nav-submenu'),
-          parent = item.closest('.nav-submenu');
-      item.closest('.topbar-nav').find('.nav-submenu').not( submenu ).not( parent ).slideUp();
-      submenu.slideToggle();
-    });
+   
 
     // Close nav if a scrollto link clicked
     //
