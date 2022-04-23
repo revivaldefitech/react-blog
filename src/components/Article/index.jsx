@@ -15,7 +15,7 @@ const Article = () => {
     </div>
   </header>
   <a href="/article/revivalhistory">
-    <img className="rounded" src="assets/img/socialbanner.jpeg" target="https://blog.revivaldefi.com/article/revivalhistory"  alt="/article/revivalhistory" />
+    <img className="rounded" src="assets/img/socialbanner.jpeg" target="article/revivalhistory"  alt="/article/revivalhistory" />
   </a>
   <div className="card-block">
     <p className="text-justify">Although not originally planned, staking in the Revival dApp has been wildly popular with our holders. Yes, you read that correctly, staking pools and even the dApp itself were not part of the original RevivalDeFi plan.</p>
