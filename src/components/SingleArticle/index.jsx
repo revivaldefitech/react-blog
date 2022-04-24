@@ -9,6 +9,7 @@ const SingleArticle = () => {
   return (
    <div>
   {/* Header */}
+  2
   <header className="header header-inverse h-fullscreen pb-80" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/dextest1.png)`}} >
     <div className="container text-center">
       <div className="row h-full">
@@ -25,7 +26,7 @@ const SingleArticle = () => {
 
         </div>
         <div className="col-12 align-self-end text-center">
-          <a className="scroll-down-1 scroll-down-inverse" href="#" data-scrollto="section-content">
+        <a className="scroll-down-1 scroll-down-inverse" href="#" data-scrollto="section-content">
             <span />
           </a>
         </div>
