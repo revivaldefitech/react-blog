@@ -26,7 +26,7 @@ const SingleArticle1 = () => {
 
         </div>
         <div className="col-12 align-self-end text-center">
-        <a className="scroll-down-1 scroll-down-inverse" href="article1/what-is-revival-defi" data-scrollto="section-content">
+        <a className="scroll-down-1 scroll-down-inverse" href="article1/what-is-revival-defi" target="_top"  data-scrollto="section-content">
             <span />
           </a>
         
