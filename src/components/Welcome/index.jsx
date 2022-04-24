@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './../Banner';
 import Article from './../Article';
-
+import Article1 from './../Article1';
 
 
 
@@ -24,9 +24,10 @@ const Welcome = () => {
     <main className="main-content bg-gray">
       <div className="row">
         <div className="col-12 col-lg-6 offset-lg-3">
+          <Article1/>
+          <hr/>
           <Article/>
           <hr/>
-
 
         </div>
       </div>

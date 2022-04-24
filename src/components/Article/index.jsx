@@ -10,7 +10,7 @@ const Article = () => {
      The History of the Revival dApp
     </h3>
     <div className="link-color-default fs-5">
-      <a href="#">News, </a>
+      <a>News, </a>
       <time>April 23, 2022</time>
     </div>
   </header>
@@ -24,10 +24,7 @@ const Article = () => {
     </p>
   </div>
 </article>
+  )
 
-
-
-  );
-};
-
+}
 export default Article;

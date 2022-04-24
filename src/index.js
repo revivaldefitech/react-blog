@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Login from './components/Login';
 import SignUp from './components/SignUp/index';
 import SingleArticle from './components/SingleArticle';
+import SingleArticle1 from './components/SingleArticle1';
 import CreateArtice from './components/CreateArticle';
 import * as serviceWorker from './serviceWorker';
 
@@ -22,7 +23,8 @@ return (
     
     <Route exact path="/" component={Welcome}/>   
     <Route path="/login" component={Login}/>
-    <Route path="/article/:slug" component={SingleArticle}/>
+    <Route path="/article/revivalhistory" component={SingleArticle}/>
+    <Route path="/article1/what-is-revival-defi" component={SingleArticle1}/>
     <Route path="/articles/create" component={CreateArtice}/>
     <Route path="/signup" component={SignUp}/>
     
