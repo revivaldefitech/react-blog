@@ -15,7 +15,9 @@ const Article1 = () => {
     </div>
   </header>
 
-    <img className="rounded" src="assets/img/whatisrevival.png"  />
+    <div className='img-container'>
+      <img className="rounded article-img" src="assets/img/whatisrevival.png"  />
+    </div>
   
   <div className="card-block">
     <p className="text-justify">REVIVAL is a community-based Binance smart chain project which strives to evolve and improve the current climate within the DeFi space.</p>

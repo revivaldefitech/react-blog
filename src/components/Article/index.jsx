@@ -1,4 +1,5 @@
 import React from 'react';
+import './article.css'
 import { Link } from 'react-router-dom';
 
 
@@ -14,8 +15,9 @@ const Article = () => {
       <time>April 23, 2022</time>
     </div>
   </header>
-
-    <img className="rounded" src="assets/img/socialbanner.jpeg"  />
+    <div className='img-container'>
+      <img className="rounded article-img" src="assets/img/socialbanner.jpeg"  />
+    </div>
   
   <div className="card-block">
     <p className="text-justify">Although not originally planned, staking in the Revival dApp has been wildly popular with our holders. Yes, you read that correctly, staking pools and even the dApp itself were not part of the original RevivalDeFi plan.</p>
