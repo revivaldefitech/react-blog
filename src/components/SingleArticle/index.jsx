@@ -52,15 +52,12 @@ const SingleArticle = () => {
           </div>
         </div>
         <br />
-        <p>
-          <img src={`${process.env.PUBLIC_URL}/assets/img/socialbanner.jpeg`}  alt="..." 
-          style={{
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-          />
+        
+        <div className='img-container'>
+        <img className="rounded article-img" src="assets/img/socialbanner.jpeg"  />
+    </div>
 
-        </p>
+        
         <br />
         <div className="row">
           <div className="col-12 col-lg-8 offset-lg-2">
