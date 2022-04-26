@@ -33,9 +33,9 @@ const Main = withRouter(({ location }) => {
 
 ReactDOM.render(
   <BrowserRouter>
-    {/* <ScrollToTop> */}
+    <ScrollToTop>
       <Main />
-    {/* </ScrollToTop> */}
+    </ScrollToTop>
   </BrowserRouter>,
   document.getElementById("root")
 );
