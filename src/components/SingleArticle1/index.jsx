@@ -72,12 +72,14 @@ const SingleArticle1 = () => {
         </div>
         <br />
         <p>
+          <div className='img-container'>
           <img src={`${process.env.PUBLIC_URL}/assets/img/rvlfinance.png`}  alt="..." 
           style={{
             justifyContent: 'center',
             alignItems: 'center',
           }}
           />
+          </div>
 
         </p>
         <br />

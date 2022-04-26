@@ -54,7 +54,7 @@ const SingleArticle = () => {
         <br />
         
         <div className='img-container'>
-        <img className="rounded article-img" src="assets/img/socialbanner.jpeg"  />
+        <img className="rounded article-img" src="/assets/img/whatisrevival.png"  />
     </div>
 
         
