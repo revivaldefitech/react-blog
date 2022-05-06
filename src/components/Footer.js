@@ -10,7 +10,8 @@ import {
   faReddit,
   faTelegramPlane,
   faMedium,
-  faTiktok
+  faTiktok,
+  faCloudflare
 } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -166,6 +167,10 @@ class FooterComponent extends Component {
                   color="#ffffff"
                 />
               </a>
+              <br></br>
+              <FontAwesomeIcon
+                  icon={faCloudflare}
+                  color="#FF7400"/> <b>Secured by Cloudflare</b>
               <p></p>
               Copyright © 2022 Revival Defi. All rights  reserved.
             </div>
